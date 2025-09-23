@@ -1,8 +1,15 @@
-class HelloWorld {
+import java.util.Scanner;
+public class teste {
+
     public static void main(String[] args) {
-        System.out.println("Hello Everyone!");
-        long a = Long.MAX_VALUE+2  ;
-        System.out.println(a);
-        
-    }
+        Scanner sc = new Scanner(System.in);
+        int numero = sc.nextInt();
+        if (numero%2==0){
+            System.out.println("Par!");
+        }
+        else{
+            System.out.println("Ímpar!");
+        }
+        sc.close();
+        }
 }
