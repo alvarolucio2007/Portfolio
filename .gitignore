@@ -1,0 +1,14 @@
+# Virtual environment
+.venv/
+env/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Logs e temporários
+*.log
+*.tmp
+
+# Configs do VSCode
+.vscode/
