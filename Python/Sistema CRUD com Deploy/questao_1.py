@@ -299,7 +299,6 @@ class FrontEnd():
         
     def renderizar_home(self):
         st.title("Visão Geral do Estoque")
-        st.info({self.estoque.JSON_PATH})
         try:
             st.dataframe(
                 self.estoque.lista_dict_produtos,
