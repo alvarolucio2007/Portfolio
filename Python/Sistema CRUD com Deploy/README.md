@@ -202,13 +202,13 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 ## 📸 Screenshots
 
 ### Home
-![Home](https://via.placeholder.com/800x400?text=Home+-+Listagem+de+Produtos)
+![Home](https://github.com/user-attachments/assets/68641b8d-8254-4b97-94dd-94977fd5abf4)
 
 ### Cadastro
-![Cadastro](https://via.placeholder.com/800x400?text=Cadastro+de+Produto)
+![Cadastro](https://github.com/user-attachments/assets/fcbb0fed-cf96-49f2-a996-ba4daeddf63b)
 
-### Busca
-![Busca](https://via.placeholder.com/800x400?text=Busca+de+Produtos)
+### Exclusão
+![Exclusão](https://github.com/user-attachments/assets/f2ba4111-7d1e-4c1a-b6f9-cfdf2afd40ad)
 
 ---
 
