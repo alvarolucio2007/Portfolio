@@ -158,7 +158,13 @@ class FrontEnd():
     def renderizar_menu_lateral(self):
         with st.sidebar:
             st.header("Selecione a ação")
-            opcao_selecionada=st.radio("Navegação",["Home(Listagem)","Cadastrar Produto","Buscar Produto","Atualizar Produto","Excluir Produto","Movimentar Produto"])
+            opcao_selecionada=st.radio("Navegação",
+                ["Home(Listagem)",
+                    "Cadastrar Produto",
+                    "Buscar Produto",
+                    "Atualizar Produto",
+                    "Excluir Produto"
+                    ])
             return opcao_selecionada
             
     def renderizar_cadastro(self) -> None:
