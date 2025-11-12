@@ -214,7 +214,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 
 ## 🔗 Links Úteis
 
-- [Deploy em Produção](https://alvarolucio2007-mini-projeto-python-a-questao-1questao-1-idhjrn.streamlit.app/)
+- [Deploy em Produção](https://sistemacrud-alvarolucio2007.streamlit.app/)
 - [Documentação Streamlit](https://docs.streamlit.io/)
 - [Documentação Pandas](https://pandas.pydata.org/docs/)
 

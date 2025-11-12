@@ -322,8 +322,8 @@ class FrontEnd():
             self.renderizar_buscar()
         elif opcao=="Excluir Produto":
             self.renderizar_excluir()
-        elif opcao=="Movimentar Produto":
-            self.renderizar_movimentacao()
+        #elif opcao=="Movimentar Produto":
+            #self.renderizar_movimentacao()
         else:
             st.info("Ainda em construção...")
         
