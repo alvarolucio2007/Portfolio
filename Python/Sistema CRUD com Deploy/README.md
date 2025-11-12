@@ -42,7 +42,7 @@ streamlit run app.py
 ```
 
 ### Deploy (Streamlit Cloud):
-Acesse: [Link do Deploy](https://alvarolucio2007-mini-projeto-python-a-questao-1questao-1-idhjrn.streamlit.app/)
+Acesse: [Link do Deploy](https://sistemacrud-alvarolucio2007.streamlit.app/)
 
 ---
 
