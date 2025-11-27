@@ -1,22 +1,38 @@
 package main
 
 import (
+	"errors"
 	"fmt"
 )
 
+
+func obterDia(numero int) (string,error){
+	var dia string
+	switch numero{
+		case 1:
+			dia="Domingo"
+		case 2:
+			dia="Segunda-feira"
+		case 3:
+			dia="Terça-feira"
+		case 4:
+			dia="Quarta-feira"
+		case 5:
+			dia="Quinta-feira"
+		case 6:
+			dia="Sexta-feira"
+		case 7:
+			dia="Sábado"
+		default:
+			return "",errors.New("Erro, número de dia inválido! Por favor, tente novamente com números inteiros entre 1 e 7.")
+}
+	return dia,nil
+}
 func main() {
-	var peso,altura,imc float64
-	fmt.Print("Insira seu peso: ")
-	fmt.Scan(&peso)
-	fmt.Println("Insira sua altura: ")
-	fmt.Scan(&altura)
-	imc= peso / (altura*altura)
-	if imc<18.5{
-		fmt.Println("Abaixo do peso!")
-	} else if imc<25{
-		fmt.Printf("Peso bom!")
-	} else if imc>=25{
-		fmt.Printf("Acima do peso!")
+	dia_1,erro_1:=obterDia(4)
+	if erro_1!= nil{
+		fmt.Println("Erro!",erro_1)
+	} else{
+		fmt.Printf("O número é: %s\n", dia_1)
 	}
-	fmt.Print(imc)
 }
